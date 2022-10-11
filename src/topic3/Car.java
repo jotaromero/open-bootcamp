@@ -1,6 +1,6 @@
 package topic3;
 
-class Car {
+public class Car {
     int doors = 0;
 
     public void incrementDoors(int increment){
