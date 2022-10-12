@@ -56,7 +56,7 @@ public class ControlStructures {
 
     private static int generateNumber() {
         Random random = new Random();
-        int value = random.nextInt(1000);
-        return random.nextInt(1000) % 2 == 0 ? value : -value;
+        int value = random.nextInt();
+        return random.nextInt() % 2 == 0 ? value : -value;
     }
 }
