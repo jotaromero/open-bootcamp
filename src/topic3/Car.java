@@ -1,7 +1,7 @@
 package topic3;
 
 public class Car {
-    int doors = 0;
+    int doors = 2;
 
     public void incrementDoors(int increment){
         doors += increment;
@@ -9,5 +9,12 @@ public class Car {
 
     public int getDoors() {
         return doors;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "doors=" + doors +
+                '}';
     }
 }
